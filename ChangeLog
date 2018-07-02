@@ -1,0 +1,151 @@
+libset-scalar-perl (1.29-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Brian Cassidy, Jose Luis Rivas, and Nathan Handler from Uploaders.
+    Thanks for your work!
+  * Add Multi-Arch: foreign. (Closes: #826790)
+  * Bump debhelper compatibility level to 9.
+  * Declare compliance with Debian Policy 3.9.8.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 21 Oct 2016 21:46:26 +0200
+
+libset-scalar-perl (1.29-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 1.29
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 25 Mar 2014 17:06:49 +0100
+
+libset-scalar-perl (1.28-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.28
+  * Update copyright years for debian/* packaging files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 25 Feb 2014 22:24:14 +0100
+
+libset-scalar-perl (1.27-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.27
+  * Update copyright years for debian/* packaging files
+  * Bump Standards-Version to 3.9.5
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 01 Jan 2014 16:21:30 +0100
+
+libset-scalar-perl (1.26-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Nathan Handler ]
+  * Email change: Nathan Handler -> nhandler@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Update my email address.
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Florian Schlichting ]
+  * Import Upstream version 1.26
+  * Update years of upstream copyright
+  * Bump dh compatibility to level 8 (no changes necessary)
+  * Update License paragraphs (directly link GPL-1, do not reference
+    "GNU/Linux")
+  * Declare compliance with Debian Policy 3.9.4
+  * Switch to source format 3.0 (quilt)
+  * Add myself to uploaders and copyright
+
+ -- Florian Schlichting <fsfs@debian.org>  Wed, 25 Sep 2013 22:37:10 +0200
+
+libset-scalar-perl (1.25-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Salvatore Bonaccorso ]
+  * New upstream release
+  * Add myself to Uploaders. 
+  * Minimize debian/rules to a tiny 3-line makefile. 
+  * Refresh debian/copyright to revision 135 of the Format-Specification for
+    machine-readable copyright file in DEP5. 
+  * Bump Standards-Version to 3.8.3 
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Mon, 28 Dec 2009 08:22:44 +0100
+
+libset-scalar-perl (1.24-1) unstable; urgency=low
+
+  [ Nathan Handler ]
+  * New upstream release
+  * debian/docs:
+    - Removed. There is no need to install the upstream README file. All
+      information that is in it is available from 'perldoc Set::Scalar'
+
+  [ gregor herrmann ]
+  * debian/copyright: update years of upstream copyright.
+
+ -- Nathan Handler <nhandler@ubuntu.com>  Wed, 03 Jun 2009 11:53:17 +0000
+
+libset-scalar-perl (1.23-1) unstable; urgency=low
+
+  [ Brian Cassidy ]
+  * New upstream release
+  * debian/*: redid packaging to new standards, copyright is now mine
+  * debian/control:
+    + Added myself to Uploaders
+    + Update Standards-Version to 3.8.1
+    + Depend on debhelper 7
+    + Remove cdbs build-depends
+  * debian/copyright: switch to new copyright format
+  * debian/rules: use new rules template
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+  * debian/control: make short description a noun phrase.
+
+ -- Brian Cassidy <brian.cassidy@gmail.com>  Thu, 23 Apr 2009 11:11:44 -0300
+
+libset-scalar-perl (1.22-1) unstable; urgency=low
+
+  [ Damyan Ivanov ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed:
+    Homepage pseudo-field (Description).
+
+  [ Martín Ferrari ]
+  * New upstream release.
+  * debian/control:
+    + Set the perl group as Maintainer, moving José to Uploaders.
+    + Bumped Standards-Version (no changes needed).
+    + Changed Description to actually name the main module, and provide a
+      clearer description of it, including the (just added) ability of
+      computing power sets and cartesian products.
+  * debian/watch:
+    + Use by-dist url, and correctly match versions.
+  * debian/copyright:
+    + Use the new parseable format.
+    + Added myself as contributor.
+    + Updated the (outdated) upstream copyright years.
+
+ -- Martín Ferrari <martin.ferrari@gmail.com>  Sun, 16 Dec 2007 22:06:23 -0300
+
+libset-scalar-perl (1.20-1) unstable; urgency=low
+
+  * Initial release (Closes: #429293)
+
+ -- Jose Luis Rivas <ghostbar38@gmail.com>  Sat, 16 Jun 2007 15:41:39 -0400
+
