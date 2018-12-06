@@ -69,14 +69,14 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/Base.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/Null.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/Real.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/Universe.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/Valued.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/ValuedUniverse.pm
-/usr/lib/perl5/vendor_perl/5.28.0/Set/Scalar/Virtual.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/Base.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/Null.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/Real.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/Universe.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/Valued.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/ValuedUniverse.pm
+/usr/lib/perl5/vendor_perl/5.28.1Set/Scalar/Virtual.pm
 
 %files dev
 %defattr(-,root,root,-)
