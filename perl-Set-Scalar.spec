@@ -4,7 +4,7 @@
 #
 Name     : perl-Set-Scalar
 Version  : 1.29
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAVIDO/Set-Scalar-1.29.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAVIDO/Set-Scalar-1.29.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libset-scalar-perl/libset-scalar-perl_1.29-2.debian.tar.xz
@@ -95,11 +95,11 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/Base.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/Null.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/Real.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/Universe.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/Valued.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/ValuedUniverse.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Set/Scalar/Virtual.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/Base.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/Null.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/Real.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/Universe.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/Valued.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/ValuedUniverse.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Set/Scalar/Virtual.pm
