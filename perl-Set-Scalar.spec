@@ -4,7 +4,7 @@
 #
 Name     : perl-Set-Scalar
 Version  : 1.29
-Release  : 21
+Release  : 22
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DAVIDO/Set-Scalar-1.29.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DAVIDO/Set-Scalar-1.29.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libs/libset-scalar-perl/libset-scalar-perl_1.29-2.debian.tar.xz
